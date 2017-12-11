@@ -77,6 +77,7 @@ print('QSOPT_DIR = {}'.format(QSOPT_DIR))
 
 setup(
     name='pytsp',
+    packages=['pytsp'],
     ext_modules=cythonize([
         Extension(
             'pytsp._concorde',
