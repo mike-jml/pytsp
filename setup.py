@@ -91,6 +91,9 @@ setup(
         )
     ]),
     version='0.1.0',
+    setup_requires=[
+        'cython>=0.22.0',
+    ],
     install_requires=[
         'cython>=0.22.0',
         'numpy>=1.10.0',
