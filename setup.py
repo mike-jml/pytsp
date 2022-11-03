@@ -69,7 +69,8 @@ def get_qsopt_base_dir():
     )
 
 
-CONCORDE_DIR = get_concorde_base_dir()
+#CONCORDE_DIR = get_concorde_base_dir()
+CONCORDE_DIR = "C:\Users\lgit\Concorde"
 QSOPT_DIR = get_qsopt_base_dir()
 print('CONCORDE_DIR = {}'.format(CONCORDE_DIR))
 print('QSOPT_DIR = {}'.format(QSOPT_DIR))
